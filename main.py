@@ -101,5 +101,5 @@ while fim == False:
         computer_guess(numbers)
         reset_var()
     elif resp == 3:
-        print('Bye!')
+        print('Bye!Thanks')
         fim = True
