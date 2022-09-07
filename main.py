@@ -58,7 +58,7 @@ def computer_guess(x):
         else:
             guess = low
         feedback = input(
-            f'Is {guess} too hight(H) , too low (L) or too Correct (c): ').lower()
+            f'Is {guess} too high(H) , too low (L) or too Correct (c): ').lower()
 
         if feedback == 'h':
             high = guess - 1
